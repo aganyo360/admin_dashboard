@@ -13,11 +13,27 @@
     height: 100vh;
 }
 .header{
-    /* background-color: rgb(232, 65, 65); */
     grid-column: 2/9;
     display: grid;
     grid-template-rows: 1fr 1fr;
 
+}
+.first_header_row{
+    display: flex;
+    align-items: center;
+    grid-row: 1/2;
+}
+.search_wrapper{
+   
+    /* background-color: red; */
+}
+.profile_section{
+    /* background-color: green; */
+}
+#profile_picture{
+    border-radius: 50% ;
+    width: 100px;
+    height: 100px;
 }
 .sidebar{
     background-color: deepskyblue;
