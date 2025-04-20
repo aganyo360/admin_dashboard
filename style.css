@@ -9,6 +9,7 @@
 }
 body{
     height: 100vh;
+    background-color: rgb(237, 229, 229);
 }
 .container{
     display: grid;
@@ -127,7 +128,10 @@ svg{
 .article_information{
     padding: 20px;
 }
-.article_information p{
+.article_information p, 
+.announcement_information p,
+.trending_information p
+{
     font-size: 0.8rem;
     opacity: 0.6;
 }
@@ -141,14 +145,38 @@ svg{
     margin: 0 14px;
 }
 .anouncement_tredning-section{
-grid-row: 2/5;
 grid-column: 7/9;
-display: grid;
-grid-template-rows: 1fr 1fr;
+box-shadow: 4px 4px 4px gray;
 margin-top: 20px;
 }
+.announcement_information >div{
+    border-bottom: 2px solid rgb(201, 197, 197);
+    padding: 20px;
+    margin-right: 20px;
+    margin-bottom: 8px;
+
+}
+.anouncement{
+box-shadow: 4px 4px 4px gray;
+/* border: 2px solid black; */
+margin-right: 0px;
+}
+
 .anouncement, 
 .trending{
-    background-color: teal;
-    border: 2px solid #fff;
+    /* text-align: right; */
+    padding: 20px;
+}
+.trending_images img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.trending{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.trending_information h4{
+    cursor: pointer;
 }
