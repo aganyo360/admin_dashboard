@@ -158,13 +158,11 @@ margin-top: 20px;
 }
 .anouncement{
 box-shadow: 4px 4px 4px gray;
-/* border: 2px solid black; */
 margin-right: 0px;
 }
 
 .anouncement, 
 .trending{
-    /* text-align: right; */
     padding: 20px;
 }
 .trending_images img{
@@ -179,4 +177,10 @@ margin-right: 0px;
 }
 .trending_information h4{
     cursor: pointer;
+}
+.trending_section{
+    padding: 20px;
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 10px;
+
 }
